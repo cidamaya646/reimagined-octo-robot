@@ -1,0 +1,7 @@
+import random
+
+# 生成随机整数列表
+random_list = [random.randint(1, 100) for _ in range(10)]
+
+# 生成随机浮点数数组
+random_array = [random.uniform(0.0, 1.0) for _ in range(10)]
